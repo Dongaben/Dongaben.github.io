@@ -1,0 +1,55 @@
+body {
+    background-color: red;
+}
+
+h1 {
+    color: white;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+img {
+    width: 15%;
+    box-shadow: 0 0 20px black;
+}
+
+#img_1 {
+    position: relative;
+    left: 7rem;
+    bottom: 4rem;
+}
+
+#img_3 {
+    position: relative;
+    left: 26.6%;
+    top: 2rem;
+}
+
+#img_5 {
+    position: relative;
+    left: 45%;
+    bottom: 4rem;
+
+}
+#img_6 {
+    position: relative;
+    right: 28%;
+    top: 18rem;
+}
+
+#img_7 {
+    position: relative;
+    left: 6%;
+    top: 18rem;
+}
+
+#img_2 {
+    position: relative;
+    right: 47%;
+    top: 12rem;
+}
+#img_4 {
+    position: relative;
+    left: 55%;
+
+}
