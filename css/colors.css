@@ -8,6 +8,11 @@ h1 {
     font-weight: bold;
 }
 
+#signText {
+    text-align: center;
+
+}
+
 img {
     width: 15%;
     box-shadow: 0 0 20px black;
