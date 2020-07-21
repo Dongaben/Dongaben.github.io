@@ -4,34 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Document</title>
-    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
+
     <Div>
-        <h1 style="padding: 2% 0 0 29%" color="white">
-           
-                TITTI RAJONGÓI OLDAL
-       
-        </h1>
- 
 
-            <img id="img_1" src="img/Foto_1.jpg" alt="">
-            <img id="img_3" src="img/Foto_3.jpg" alt="">
-            <img id="img_5" src="img/Foto_5.jpg" alt="">
-            <img id="img_6" src="img/Foto_6.jpg" alt="">
-            <img id="img_7" src="img/Foto_7.jpg" alt="">
-            <img id="img_2" src="img/Foto_2.jpg" alt="">
-            <img id="img_4" src="img/Foto_4.jpg" alt="">
-        
+        <div class="container">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4" style="margin-top: 1%;">
+                    <center>
+                        <h1>TITTI OLDALA</h1>
+                    </center>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="col-2"></div>
+            <div class="row">
+                <div class="col-8">
+
+                </div>
+                <center>
+
+                    <img id="img_1" src="img/Foto_1.jpg" alt="">
+                    <img id="img_3" src="img/Foto_3.jpg" alt="">
+                    <img id="img_5" src="img/Foto_5.jpg" alt="">
+
+                    <div class="row">
+                        <center>
+                            <img id="img_2" src="img/Foto_2.jpg" alt="">
+                            <button onclick="bezárás()" type="button" class="btn btn-primary">Kilépés</button>
+                            <img id="img_4" src="img/Foto_4.jpg" alt="">
+                        </center>
+                    </div>
+                    <div class="row">
+                    <center>
+                        <img id="img_6" src="img/Foto_6.jpg" alt="">
+                        <img id="img_7" src="img/Foto_7.jpg" alt="">
+                    </center>
+                    </div>
+                </center>
+            </div>
+            <div class="col-2"></div>
+        </div>
     </Div>
-    <center>
 
-        <button onclick="bezárás()" type="button" class="btn btn-primary">Kilépés</button>
-    </center>
     <script src="js/main.js"></script>
 </body>
 
