@@ -1,0 +1,57 @@
+body {
+    background-color: red;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 5ex;
+}
+
+#signText {
+    text-align: center;
+}
+
+#Kilépés {
+    margin-top: 30px;
+}
+
+img {
+    width: 20%;
+    box-shadow: 0 0 20px black;
+    margin-top: 30px;
+}
+
+#img_1 {
+    position: static;
+}
+
+#img_3 {
+    position: static;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#img_5 {
+    position: static;   
+}
+
+#img_2 {
+    position: static;
+    margin-right: 5%;  
+}
+
+#img_4 {
+    position: static;
+    margin-left: 5%;  
+} 
+
+#img_6 {
+    position: static;
+    margin-right: 2%;
+}
+
+#img_7 {
+    position: static;
+    margin-left: 2%; 
+}

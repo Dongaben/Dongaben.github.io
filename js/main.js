@@ -4,10 +4,15 @@ function login() {
     
     if (loginInput.value == "Szabó Krisztina Dóra") {
         alert("Szia Titti!");
-        ablak = open("Titti.html")
-        
+        ablak = open("Titti.html")    
     } 
-   else if (loginInput.value != "Szabó Krisztina Dóra") {
+   
+    else if (loginInput.value == "Szabo Krisztina Dora") {
+        alert("Szia Titti!");
+        ablak = open("Titti.html")
+    } 
+
+    else if (loginInput.value != "Szabó Krisztina Dóra") {
         alert("Nem ismerlek, viszlát!");
     }
 }
