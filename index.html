@@ -1,58 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
-    <style>
-        body {
-            background-color:silver;
-        }
-    </style>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myFirstWebsite</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+   
 </head>
-
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-9 col-xl-4"></div>
-            <div class="col-sm-12 col-md-9 col-xl-4" style="padding: 4rem 0rem;">
-                <center>
-                    <H3>Kérlek add meg a neved!</H3>
-                </center>
-            </div>
-            <div class="col-sm-12 col-md-9 col-xl-4"></div>
+
+<header class="d-flex Header">
+    <img alt="logo" src="assets/aperture.svg">  
+    <div id="menu"> 
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="#B">Bemutatkozás</a></li>
+        <li><a href="#">Definíciók</a>
+          <ul>
+              <li><a href="#D1">Logikai kapu</a></li>
+              <li><a href="#D2">ASCII kód</a></li>
+              <li><a href="#D3">RAM</a></li>
+              <li><a href="#D4">A programozási nyelv</a></li>
+              <li><a href="#D5">DNS</a></li>
+              <li><a href="#D6">HTTP</a></li>
+          </ul>
+        </li>
+      </ul> 
+    </div>        
+</header> 
+
+<div class="row initial">
+  
+  <div class="col-3"></div>
+  <div class="col-6">
+    
+    <div class="Box-header content">
+        <h2 id="B" class="Box-header-grey">Bemutatkozás</h2>
+        <div class="d-flex grey-line"> 
+          <img id="logo" alt="logo" src="assets/logó.png"> 
+          <div>
+            <h1>Kiss Gábor László</h1>
+            <p>Olaj és gázmérnökként végeztem 1999-ben a Miskolci Egyetemen, azóta a gáziparban dolgoztam. Azonban gyerekkorom óta nagy szerelmem az informatika, ebbe az irányba most megpróbálok nem csak hobbi szinten elindulni. </p>  
+          </div>
         </div>
+        <h2 class="Box-header-grey">Definíciók</h2>
+        <h5 id="D1">Logikai kapu:</h5>
+          <p>Egy olyan idealizált vagy fizikai eszköz ami logikai alapmüveletet valósít meg
+          egy vagy több bináris bemeneten és produkál egy bináris kimenetet.</p>
+        
+        <h5 id="D2">ASCII kód:</h5>
+          <p>Az angol neve <em>American Standard Code for Information Interchange</em>. A
+          számítógépek csak a számokat értik, így a 'a' vagy '@' karakterek
+          értelmezéséhez szükséges számosított értékeket írja le.</p>
+          
+        <h5 id="D3">RAM:</h5>
+          <p>Egy véletlen elérésű írható–olvasható adattároló eszköz. Tárolja a CPU által
+          végrehajtandó programokat és a feldolgozásra váró adatokat. Egy adott
+          memóriarész elérésének gyorsasága független az elhelyezkedésétől.</p>
+          
+        <h5 id="D4">A programozási nyelv:</h5>
+          <p>A számítástechnikában használt olyan, az ember által olvasható és értelmezhető
+          utasítások sorozata, amivel közvetlenül, vagy közvetve (például: gépi kódra
+          fordítás után) közölhetjük a számítógéppel egy adott feladat elvégzésének
+          módját.</p>
+          
+        <h5 id="D5">DNS (Domain Name System):</h5>
+          <p>Egy hierarchikus, nagymértékben decentralizált elnevezési rendszer
+          számítógépek, szolgáltatások, illetve az internetre vagy egy magánhálózatra
+          kötött bármilyen erőforrás számára.</p>
+          
+        <h5 id="D6">HTTP (HyperText Transfer Protocol):</h5>
+          <p>Egy alkalmazás protokol elosztott, együttműködő és hipermédiás információs
+          rendszerek részére. A <em>World Wide Web</em> adat kommunikációjának alapja. Ez az
+          alapvető protokol a <em>hypertext</em> cseréjére és mozgatására.</p>
+    
+        <div class="col-3"></div>
 
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-9 col-xl-4 col-md-9 col-xl-4"></div>
-            <div class="col-sm-12 col-md-9 col-xl-4 col-md-9 col-xl-4">
-                <center>
-                    <form>
-                        <div class="form-group">
-
-                            <input type="text" name="login-input" class="form-control" id="signText"
-                                aria-describedby="emailHelp">
-                            <small id="emailHelp" class="form-text text-muted">Teljes nevet kell megadni!</small>
-                        </div>
-
-                        <button onclick="login()" type="login" class="btn btn-primary">Belépés</button>
-                    </form>
-                </center>
-            </div>
-            <div class="col-sm-12 col-md-9 col-xl-4 col-md-9 col-xl-4"></div>
-        </div>
-
-    </div>
-
-    <script src="js/main.js"></script>
-
- 
+  </div> 
+</div>
 </body>
-
 </html>

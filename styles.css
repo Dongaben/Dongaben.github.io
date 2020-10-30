@@ -1,0 +1,129 @@
+.Header {
+    position: fixed;
+    width: 100%;
+    z-index: 32;
+    padding: 16px;
+    font-size: 30px;
+    line-height: 1.5;
+    background-color: #333333;   
+}
+
+#menu {
+    float: left;
+    width: 100%;
+    margin-left: 26%;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+}
+
+#menu li {
+    float: left;
+    width: 200px;
+}
+
+#menu a {
+    font: normal 30px 'Roboto', sans-serif, Courier;
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 2px 3px;
+    color: #ff0099;
+    background: #333333;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color:white;
+}
+
+#menu li {
+    position: relative;
+    float: left;
+    width: 200px;
+}
+
+#menu ul ul {
+    position: absolute;
+    left: 0px;
+    display: none;
+}
+
+#menu ul li:hover ul{
+    display: block;
+}
+
+.initial {
+    position: relative;
+    top: 80px;
+}
+
+body {
+    
+    font-family: 'Roboto', sans-serif, Courier;
+    font-size: 100%;
+    background-image: url(assets/topography.png);
+}
+
+.Box-header {
+    padding: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.Box-header-grey {
+    padding: 16px;
+    background-color: lightgrey;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+#logo {
+    width: 120px;
+    height: 120px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+.content {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.grey-line {
+    padding-bottom: 30px;
+    border-bottom: 2px solid grey;
+}
+
+h1, h2, h5 {
+    margin-top: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: #ff0099; 
+    padding-top: 30px;
+}
+
+h5 {    
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+p {
+    text-align: justify;
+}
