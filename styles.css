@@ -81,6 +81,7 @@ body {
 }
 
 .Box-header-grey {
+    min-width: 250px;
     padding: 16px;
     background-color: lightgrey;
     border-top-left-radius: 6px;
